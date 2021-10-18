@@ -6,9 +6,9 @@ public class ${classPrefix}Starter {
     public static void main(String[] args) {
 
         // Create the workflow stub
-        ${classPrefix}Workflow workflow =
+        ${classPrefix}WorkflowInterface workflow =
                 ${classPrefix}Worker.client.newWorkflowStub(
-                        ${classPrefix}Workflow.class,
+                        ${classPrefix}WorkflowInterface.class,
                         WorkflowOptions.newBuilder()
                                 .setTaskQueue(${classPrefix}Worker.TASK_QUEUE)
                                 .build());
