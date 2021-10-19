@@ -14,7 +14,6 @@
 			<includes>
 				<include>.gitignore</include>
 				<include>README.md</include>
-				<include>docker-compose-cas-es.yml</include>
 			</includes>
 		</fileSet>
 		<fileSet filtered="true" packaged="true" encoding="UTF-8">
@@ -32,7 +31,7 @@
 		<fileSet encoding="UTF-8">
 			<directory>src/main/resources</directory>
 			<includes>
-				<include>**/*.properties</include>
+				<include>**/*.xml</include>
 			</includes>
 		</fileSet>
 	</fileSets>
