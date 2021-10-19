@@ -9,8 +9,9 @@ Easy way is to do that with [Docker Compose](https://docs.docker.com/compose/get
 
 1. Start the Temporal Server
 
-In your created project run:
 ```
+git clone git@github.com:temporalio/docker-compose.git
+cd docker-compose
 docker-compose -f docker-compose-cas-es.yml up
 ```
 
