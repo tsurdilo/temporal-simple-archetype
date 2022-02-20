@@ -52,20 +52,6 @@
 		</dependency>
 
 		<dependency>
-			<groupId>io.temporal</groupId>
-			<artifactId>temporal-testing-junit4</artifactId>
-			<scope>test</scope>
-			<version>${version.temporal}</version>
-		</dependency>
-
-		<dependency>
-			<groupId>io.temporal</groupId>
-			<artifactId>temporal-testing-junit5</artifactId>
-			<scope>test</scope>
-			<version>${version.temporal}</version>
-		</dependency>
-
-		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<scope>test</scope>
